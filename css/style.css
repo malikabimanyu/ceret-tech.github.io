@@ -1,0 +1,263 @@
+body{
+  background-color: #e7e7e7;
+}
+
+.navbar-brand{
+  float: none;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+h1, h2, h3, h4{
+  font-family: 'Anton', sans-serif;
+}
+
+a{
+  font-weight:
+}
+
+.navbar-default {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.navbar{
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default:hover .navbar-brand {
+    color: white;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.row{
+  margin-right: 0px;
+}
+
+/*MOBILE*/
+#mobile-header .jumbotron{
+  background-color: black;;
+  color: white;
+}
+
+#mobile-header .jumbotron h1, #mobile-header .jumbotron h3{
+  text-shadow: 3px 2px 20px black;
+}
+
+#mobile-satu{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+#mobile-satu .container h1{
+font-family: 'Raleway', sans-serif;
+}
+
+#mobile-satu hr{
+  border: 4.5px solid #000000;
+}
+
+#mobile-satu img{
+  position: absolute;
+  width: 250px;
+  height: 350px;
+  top: 520px;
+  left: 200px;
+}
+
+#mobile-satu .col-md-3{
+  margin-top: 2%;
+}
+
+#mobile-satu i{
+  padding-top: 5%;
+  font-size: 70px;
+  text-align: center;
+  color: #212121;
+}
+
+#mobile-satu .col-md-5 p{
+  font-size: 16px;
+}
+
+.panel{
+  padding-left: 3%;
+  padding-right: 3%;
+  border-radius: 0px;
+  border: 2px solid transparent;
+  transition: 0.3s;
+  background-color: #e7e7e7;
+}
+
+.panel:hover{
+  box-shadow: inset 0 0px 20px 2px rgba(0,0,0,.05);
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+
+.panel-default{
+  border-color: #484848;
+  transition: 0.3s;
+}
+
+.panel-default:hover{
+  border-color: #000000;
+  transition: 0.3s;
+}
+
+#mobile-dua i{
+  font-size: 100px;
+  color: #ffffff;
+}
+
+#mobile-dua .jumbotron{
+  margin-bottom: 0px;
+}
+
+#mobile-dua h3{
+  font-family: 'Raleway', sans-serif;
+}
+
+#mobile-tiga{
+  background-color: #e7e7e7;
+}
+
+#mobile-dua .jumbotron{
+  background-image: url("../image/8.jpg");
+  background-attachment: fixed;
+  color: black;
+  text-shadow: 0px 0px 20px #101f27;
+}
+
+#mobile-dua h2{
+  color: white;
+}
+
+#mobile-dua h3{
+  color: white;
+  text-shadow: 0px 0px 20px #101f27;
+}
+
+#mobile-dua i{
+  color: white;
+  text-shadow: 0px 0px 20px #101f27;
+}
+
+#mobile-tiga .jumbotron{
+  background-color: #e7e7e7;
+}
+
+#mobile-tiga .panel{
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+#mobile-tiga .panel-default{
+  border-color: black;
+  border: 0px solid black;
+  box-shadow: 2px 1px 20px 8px #ecf0f1;
+  transition: 0.3s;
+}
+
+#mobile-tiga .jumbotron p{
+  margin-bottom: 3%;
+}
+
+#mobile-tiga .panel-default:hover{
+  border: 0px solid black;
+  box-shadow: 2px 1px 20px 20px #ecf0f1;
+  transition: 0.3s;
+}
+
+#mobile-tiga h4{
+  font-family: 'Raleway', sans-serif;
+}
+
+#mobile-tiga .panel-footer{
+  background-color: #484848;
+  color: #ffffff;
+}
+
+.popover-title{
+  font-size: 20px;
+  background-color: #4f5b62;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 0px;
+}
+
+.popover{
+  width: 90%;
+  float: left;
+  border-radius: 0px;
+  background-color: #e7e7e7;
+}
+
+a{
+  color:black;
+}
+
+a:hover{
+  color: black;
+}
+
+a:focus{
+  text-decoration: none;
+}
+
+#mobile-empat .jumbotron{
+  background-color: #e7e7e7;
+}
+
+#mobile-empat h3{
+  font-family: 'Raleway', sans-serif;
+}
+
+#mobile-empat .jumbotron p{
+  margin-bottom: 3%;
+}
+
+#mobile-empat .jumbotron{
+  background-image: url("../image/9.jpg");
+}
+
+.form-control{
+  border-radius: 0px;
+  box-shadow: inset 0 0 0 rgba(0,0,0,.075);
+}
+
+.form-control:focus{
+  box-shadow: 1px 1px 20px #37464f;
+  border: 1px solid #62717b;
+}
+
+button{
+  float: right;
+}
+
+footer .jumbotron{
+  background-color: black;
+  margin-bottom: 0px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+
+footer h3{
+  font-family: 'Raleway', sans-serif;
+  color:white;
+}
+
+footer .jumbotron p{
+  color:white;
+  font-size: 15px;
+}
